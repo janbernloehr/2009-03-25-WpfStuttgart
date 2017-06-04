@@ -1,0 +1,42 @@
+﻿<Page
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="Presenter._0Summary"
+	x:Name="Page"
+	WindowTitle="Page"
+	FlowDirection="LeftToRight"
+	Width="1000" Height="600"
+	Background="#FFFFFFFF" Title="Summary">
+
+<Page.Resources>
+<Style TargetType="TextBlock">
+<Setter Property="FontSize" Value="16" />
+<Setter Property="Margin" Value="10,4,0,4" />
+</Style>
+<Style x:Key="HeaderBlock" TargetType="TextBlock">
+<Setter Property="Foreground" Value="#FF72A1AE" />
+<Setter Property="FontWeight" Value="Bold" />
+<Setter Property="FontSize" Value="30" />
+</Style>
+</Page.Resources>
+
+	<StackPanel>
+	<TextBlock Text="DataTemplates" Style="{StaticResource HeaderBlock}" />
+	<TextBlock>
+	Definieren wie Objekte in WPF dargestellt werden. (Beschreiben die Source)<LineBreak />
+	DataTriggers erlauben ein Daten-abhängiges Verhalten.
+	</TextBlock>
+	<TextBlock Text="Controls" Style="{StaticResource HeaderBlock}" />
+	<TextBlock>
+	Stellen UI-Logik zur Verfügung (Klick, Liste mit auswählbaren Elementen, etc.)
+	</TextBlock>
+	<TextBlock Text="ControlTemplates" Style="{StaticResource HeaderBlock}" />
+	<TextBlock>
+	Definieren, wie ein Control in WPF dargstellt wird.
+	</TextBlock>
+	<TextBlock Text="Styles" Style="{StaticResource HeaderBlock}" />
+	<TextBlock>
+	Vergleichbar mit CSS (Cascading Style Sheets).
+	</TextBlock>
+	</StackPanel>
+</Page>

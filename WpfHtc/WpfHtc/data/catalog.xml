@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalog>
+<device
+   name="Touch Cruise"
+   os="Windows Mobile 6.1 Professional"
+   g3="true"
+   hsdpa="true"
+   gps="true"
+   image="data/images/htccruise.png">
+  <feature key="Prozessor">
+    <![CDATA[Qualcomm® MSM7225™, 528 MHz]]>
+  </feature>
+  <feature key="Speicher">
+    <![CDATA[ROM: 512 MB RAM: 256 MB]]>
+  </feature>
+  <feature key="Abmessungen">
+    <![CDATA[102 X 53.5 X 14.5 mm]]>
+  </feature>
+  <feature key="Display">
+    <![CDATA[2.8-inch TFT-LCD]]>
+  </feature>
+  <feature key="Kamera">
+    <![CDATA[3.2 Megapixel]]>
+  </feature>
+</device>
+
+<device
+   name="Touch Pro 2"
+   os="Windows Mobile 6.1 Professional"
+   g3="true"
+   hsdpa="true"
+   gps="true"
+   image="data/images/htctouchpro2.png">
+  <feature key="Prozessor">
+    <![CDATA[Qualcomm® MSM7200A™, 528 MHz]]>
+  </feature>
+  <feature key="Speicher">
+    <![CDATA[ROM: 512 MB RAM: 288 MB]]>
+  </feature>
+  <feature key="Abmessungen">
+    <![CDATA[116 X 59.2 X 17.25 mm]]>
+  </feature>
+  <feature key="Display">
+    <![CDATA[3.6" TFT-LCD]]>
+  </feature>
+  <feature key="Kamera">
+    <![CDATA[3.2 Megapixel]]>
+  </feature>
+</device>
+
+  <device
+     name="Touch Diamond 2"
+     os="Windows Mobile 6.1 Professional"
+     g3="true"
+     hsdpa="true"
+     gps="true"
+     image="data/images/htctouchd2.png">
+    <feature key="Prozessor">
+      <![CDATA[Qualcomm® MSM7200A™, 528 MHz]]>
+    </feature>
+    <feature key="Speicher">
+      <![CDATA[ROM: 512 MB RAM: 288 MB]]>
+    </feature>
+    <feature key="Abmessungen">
+      <![CDATA[107.85 X 53.1 X 13.7 mm]]>
+    </feature>
+    <feature key="Display">
+      <![CDATA[3.2" TFT-LCD]]>
+    </feature>
+    <feature key="Kamera">
+      <![CDATA[5 Megapixel]]>
+    </feature>
+  </device>
+
+  <device
+     name="Touch Pro"
+     os="Windows Mobile 6.1 Professional"
+     g3="true"
+     hsdpa="true"
+     gps="true"
+     image="data/images/htctouchpro.png">
+    <feature key="Prozessor">
+      <![CDATA[Qualcomm® MSM7201A™, 528 MHz]]>
+    </feature>
+    <feature key="Speicher">
+      <![CDATA[ROM: 512 MB RAM: 288 MB]]>
+    </feature>
+    <feature key="Abmessungen">
+      <![CDATA[102 mm X 51 mm X 18.05 mm]]>
+    </feature>
+    <feature key="Display">
+      <![CDATA[2.8" TFT-LCD]]>
+    </feature>
+    <feature key="Kamera">
+      <![CDATA[3.2 Megapixel]]>
+    </feature>
+  </device>
+
+  <device
+     name="Touch HD"
+     os="Windows Mobile 6.1 Professional"
+     g3="true"
+     hsdpa="true"
+     gps="true"
+     image="data/images/htctouchhd.png">
+    <feature key="Prozessor">
+      <![CDATA[Qualcomm® MSM7201A™, 528 MHz]]>
+    </feature>
+    <feature key="Speicher">
+      <![CDATA[ROM: 512 MB RAM: 288 MB]]>
+    </feature>
+    <feature key="Abmessungen">
+      <![CDATA[115 mm X 62.8 mm X 12 mm]]>
+    </feature>
+    <feature key="Display">
+      <![CDATA[3.8" TFT-LCD]]>
+    </feature>
+    <feature key="Kamera">
+      <![CDATA[5 Megapixel]]>
+    </feature>
+  </device>
+
+
+  <device
+     name="Htc Magic"
+     os="Android"
+     g3="true"
+     hsdpa="true"
+     gps="true"
+     image="data/images/htcmagic.png">
+    <feature key="Prozessor">
+      <![CDATA[Qualcomm® MSM7201A™, 528 MHz]]>
+    </feature>
+    <feature key="Speicher">
+      <![CDATA[ROM: 512 MB RAM: 288 MB]]>
+    </feature>
+    <feature key="Abmessungen">
+      <![CDATA[115 mm X 62.8 mm X 12 mm]]>
+    </feature>
+    <feature key="Display">
+      <![CDATA[3.2" TFT-LCD]]>
+    </feature>
+    <feature key="Kamera">
+      <![CDATA[3.2 Megapixel]]>
+    </feature>
+  </device>
+
+
+  <device
+     name="Htc Touch"
+     os="Windows Mobile 6 Professional"
+     g3="false"
+     hsdpa="false"
+     gps="false"
+     image="data/images/htctouch.png">
+    <feature key="Prozessor">
+      <![CDATA[Qualcomm® MSM7201A™, 528 MHz]]>
+    </feature>
+    <feature key="Speicher">
+      <![CDATA[ROM: 128 MB RAM: 64 MB]]>
+    </feature>
+    <feature key="Abmessungen">
+      <![CDATA[99.9 mm X 58 mm X 13.9 mm]]>
+    </feature>
+    <feature key="Display">
+      <![CDATA[2.8" TFT-LCD]]>
+    </feature>
+    <feature key="Kamera">
+      <![CDATA[2 Megapixel]]>
+    </feature>
+  </device>
+
+
+  <device
+     name="Touch Diamond"
+     os="Windows Mobile 6.1 Professional"
+     g3="true"
+     hsdpa="true"
+     gps="true"
+     image="data/images/htctouchd.png">
+    <feature key="Prozessor">
+      <![CDATA[Qualcomm® MSM7201A™, 528 MHz]]>
+    </feature>
+    <feature key="Speicher">
+      <![CDATA[ROM: 256 MB RAM: 192 MB]]>
+    </feature>
+    <feature key="Abmessungen">
+      <![CDATA[102 mm X 51 mm X 11.35 mm]]>
+    </feature>
+    <feature key="Display">
+      <![CDATA[2.8" TFT-LCD]]>
+    </feature>
+    <feature key="Kamera">
+    <![CDATA[3.2 Megapixel]]>
+    </feature>
+  </device>
+
+</catalog>

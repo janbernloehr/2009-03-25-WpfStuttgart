@@ -1,0 +1,12 @@
+﻿<Window x:Class="WpfExplorer.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:WpfExplorer"
+    Title="Window1" Height="400" Width="600">
+    <Window.Resources>
+        
+    </Window.Resources>
+    <Grid>
+        
+    </Grid>
+</Window>

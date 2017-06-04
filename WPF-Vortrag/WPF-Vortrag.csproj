@@ -1,0 +1,175 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition="'$(Configuration)'==''">Debug</Configuration>
+    <DefaultClrNameSpace>Presenter</DefaultClrNameSpace>
+    <AssemblyName>Presenter</AssemblyName>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <ApplicationVersion>1.0.0.*</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <AlwaysCompileMarkupFilesInSeparateDomain>false</AlwaysCompileMarkupFilesInSeparateDomain>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Presenter</RootNamespace>
+    <ApplicationIcon>Application.ico</ApplicationIcon>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ProjectGuid>{A1ED1BFE-ED19-4224-BDEC-4B964D2BA43C}</ProjectGuid>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="03SimpleBinding.xaml.cs">
+      <DependentUpon>03SimpleBinding.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="08Styles.xaml.cs">
+      <DependentUpon>08Styles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="06MasterDetail.xaml.cs">
+      <DependentUpon>06MasterDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="07Views.xaml.cs">
+      <DependentUpon>07Views.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="04PropertyChangeNotifications.xaml.cs">
+      <DependentUpon>04PropertyChangeNotifications.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="10Summary.xaml.cs">
+      <DependentUpon>10Summary.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="11Questions.xaml.cs">
+      <DependentUpon>11Questions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="ConvertKmToM.cs" />
+    <Compile Include="ConvertOrbit.cs" />
+    <Compile Include="01Title.xaml.cs">
+      <DependentUpon>01Title.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="05BindToCollections.xaml.cs">
+      <DependentUpon>05BindToCollections.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="09FancyDataTemplate.xaml.cs">
+      <DependentUpon>09FancyDataTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="02Welcome.xaml.cs">
+      <DependentUpon>02Welcome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="02WhatIWpf.xaml.cs">
+      <DependentUpon>02WhatIWpf.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MinMaxValidationRule.cs" />
+    <Compile Include="Presentation.cs" />
+    <Compile Include="Saturn.cs" />
+    <Compile Include="SolarSystem.cs" />
+    <Compile Include="SolarSystemObject.cs" />
+    <Compile Include="02WhatIsDataBinding.xaml.cs">
+      <DependentUpon>02WhatIsDataBinding.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Page Include="01Title.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="05BindToCollections.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="03SimpleBinding.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="09FancyDataTemplate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="02WhatIsDataBinding.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="08Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="06MasterDetail.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="07Views.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="10Summary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="11Questions.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="04PropertyChangeNotifications.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="02Welcome.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="02WhatIWpf.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PooSniffer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Window1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Resource Include="Images\2moons_2.gif" />
+    <Resource Include="Images\earglobe.gif" />
+    <Resource Include="Images\jupglobe.gif" />
+    <Resource Include="Images\marglobe.gif" />
+    <Resource Include="Images\merglobe.gif" />
+    <Resource Include="Images\nepglobe.gif" />
+    <Resource Include="Images\planetx.jpg" />
+    <Resource Include="Images\plutoch_2.gif" />
+    <Resource Include="Images\sun.jpg" />
+    <Resource Include="Images\uraglobe.gif" />
+    <Resource Include="Images\venglobe.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BSODInfamousSlide.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\vistabluescreen192.png" />
+  </ItemGroup>
+</Project>

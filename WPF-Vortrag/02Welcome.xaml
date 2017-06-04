@@ -1,0 +1,14 @@
+﻿<Page
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:System="clr-namespace:System;assembly=mscorlib"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2006" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="Presenter.Welcome"
+	x:Name="Page"
+	WindowTitle="Page"
+	FlowDirection="LeftToRight"
+	Width="1000" Height="600"
+	Background="#FFFFFFFF" Title="">
+
+    <Image  Stretch="Fill" Source="/Presenter;component/Images/vistabluescreen192.png" Margin="-46,-64,-46,-40" />
+</Page>
